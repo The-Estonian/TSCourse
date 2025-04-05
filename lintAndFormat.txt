@@ -11,8 +11,7 @@ npm install typescript @typescript-eslint/parser @typescript-eslint/eslint-plugi
         'indent': ['error', 4],
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
-        'no-trailing-spaces': 'error',
-        'prettier/prettier': 'error'
+        'no-trailing-spaces': 'error'
     }
 }
 
