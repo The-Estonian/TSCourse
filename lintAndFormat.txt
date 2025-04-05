@@ -2,11 +2,18 @@ npm init -y
 npx tsc --init
 npx eslint --init
 
-@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-prettier eslint-plugin-prettier
+npm install typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier --save-dev
 
-{ rules: {
-    indent: ['error', 4],
-    quotes: ['error', 'single'],
-    semi: ['error', 'always'],
-    'no-trailing-spaces': 'error'
-}}
+***************************************************************************************
+
+{
+    rules: {
+        'indent': ['error', 4],
+        'quotes': ['error', 'single'],
+        'semi': ['error', 'always'],
+        'no-trailing-spaces': 'error',
+        'prettier/prettier': 'error'
+    }
+}
+
+***************************************************************************************
