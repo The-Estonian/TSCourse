@@ -40,6 +40,5 @@ list.add(5);
 list.add(3);
 list.add(10);
 list.add(-5);
-console.log(list.getNumberOfElements);
+console.log(list.getNumberOfElements());
 list.print();
-const nameList = new LinkedList();
