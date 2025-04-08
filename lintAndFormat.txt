@@ -16,3 +16,8 @@ npm install typescript @typescript-eslint/parser @typescript-eslint/eslint-plugi
 }
 
 ***************************************************************************************
+
+Optional lite server for fast prototyping
+
+npm install lite-server --save-dev
+npm audit --omit=dev // ignore vulnerabilities for local development
