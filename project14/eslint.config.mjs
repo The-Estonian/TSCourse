@@ -10,7 +10,7 @@ export default defineConfig([
     tseslint.configs.recommended,
     {
         rules: {
-            'indent': ['error', 4],
+            'indent': ['error', 2],
             'quotes': ['error', 'single'],
             'semi': ['error', 'always'],
             'no-trailing-spaces': 'error'
